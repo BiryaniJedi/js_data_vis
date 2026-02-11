@@ -1,0 +1,16 @@
+{
+  "name": "project-3-data-viz",
+  "version": "1.0.0",
+  "description": "ASCII/text-based data visualization library for terminal",
+  "main": "src/index.js",
+  "type": "module",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "demo": "node examples/demo.js"
+  },
+  "keywords": ["data-visualization", "charts", "ascii", "terminal"],
+  "author": "",
+  "license": "ISC"
+}

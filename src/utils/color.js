@@ -37,7 +37,6 @@ const generatePalette = (baseColorHex, count) => {
     }
     iterations++;
   }
-  console.log(`scales: ${scales}`);
   return scales.map((scale) => {
     const scaledAndMapped = baseRgb
       .map((num) => Math.round(num * scale))
